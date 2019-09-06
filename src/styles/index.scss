@@ -1,5 +1,19 @@
-$body-color: blue;
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "variable";
+@import "fonts";
+@import "navbar";
+@import "section";
+@import "global";
+@import "btns";
 
-body {
-  color: $body-color;
+html{
+}
+body{
+  overflow-x: hidden;
+}
+
+.sections{
+  display: flex;
+  height: 100%;
 }
